@@ -1,24 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title> 
+    <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="assests/css/style.css">
+    <link rel="stylesheet" href="assests/css/style.css">
 </head>
 <body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="" id="buttons-view"></div>
+                <div class="row mt-5">
+                    <div class="col-lg-6">
+                        <form id="movie-form mt-5">
+                            <label for="giphy-input">Add a giphy</label>
+                            <input type="text" id="giphy-input"><br>
+                            <input id="add-giphy" type="submit" value="Add a giphy!">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-
-
-
-
-
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="mt-5" id="giphy"></div>
+            </div>
+        </div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
@@ -27,4 +45,5 @@
     </script>
     <script src="assests/javascript/app.js"></script>
 </body>
+
 </html>
