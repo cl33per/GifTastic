@@ -14,7 +14,7 @@ $(document).ready(function () {
     };
   };
 
-  $("#add-giphy").on("click", function (event) {
+  $("#add-giphy").on("click", function (event) {  
     event.preventDefault();
     var gif = $("#giphy-input").val().trim();
     topics.push(gif);
