@@ -78,11 +78,6 @@ $(document).ready(function () {
     };
   };
 
-  // Function to add 10 more additonal gif to the exsiting query
-  $("#add-more").on("click", function () {
-    
-  });
-
   // Fires renderButtons Function
   renderButtons();
 
